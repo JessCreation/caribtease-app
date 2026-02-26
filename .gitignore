@@ -20,3 +20,11 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+Update my React + Vite + Tailwind + Supabase chat app to be fully deployable to Render.com free static site hosting. 
+- Use environment variables for Supabase URL, anon key, etc. (import.meta.env.VITE_SUPABASE_URL)
+- Make sure Vite build outputs to /dist folder correctly.
+- Add basic error handling and loading states for auth/chat.
+- Keep age gate, login, chat with typing indicator, message bubbles, media previews.
+- Ensure it works offline for UI but connects to Supabase for real-time chat/auth.
+- Add a note in README.md for Render deployment steps.
+Generate updated vite.config.js, .env.example, and any needed changes to main files.
